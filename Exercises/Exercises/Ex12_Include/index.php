@@ -8,12 +8,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 12 - Include external files
-        Put functions in import/functions.php, header in import/header.php and footer in import/footer.php.
-        Import them and show total, average and result of a score list.
-        */
+      
         include('import/header.php');
         $scores = [80, 65, 90, 45];
         echo "Total: " . totalScore($scores) . "<br>";

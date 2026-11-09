@@ -7,11 +7,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 7 - Function without return value
-        Create a function greet($name, $city) that prints a greeting. Call it 3 times.
-        */
+       
         function greet(string $name, string $city): void {
             echo "Hello {$name} from {$city}!<br>";
         }

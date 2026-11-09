@@ -7,11 +7,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 11 - Grade function
-        Create a function grade($average) that returns A (>=80), B (>=65), C (>=50) or F. Use it on an array of averages.
-        */
+       
         function grade($average) {
             if ($average >= 80) return "A";
             if ($average >= 65) return "B";

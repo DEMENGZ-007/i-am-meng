@@ -7,11 +7,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 6 - Pass / Fail with foreach
-        For each student, add midterm + final. If total >= 50 show Passed, otherwise Failed.
-        */
+       
         $students = [
             ["name" => "Dara",   "mid" => 20, "final" => 35],
             ["name" => "Srey",   "mid" => 15, "final" => 20],

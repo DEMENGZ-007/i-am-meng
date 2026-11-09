@@ -7,11 +7,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 3 - Sum and Average
-        Given 6 scores, calculate the total, average, highest and lowest score.
-        */
+       
         $scores = [85, 90, 72, 64, 98, 77];
         $total = array_sum($scores);
         $average = $total / count($scores);

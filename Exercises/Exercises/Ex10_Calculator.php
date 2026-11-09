@@ -7,11 +7,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 10 - Simple calculator
-        Create functions add, subtract, multiply and divide. divide must not divide by zero.
-        */
+       
         function add($a, $b)      { return $a + $b; }
         function subtract($a, $b) { return $a - $b; }
         function multiply($a, $b) { return $a * $b; }

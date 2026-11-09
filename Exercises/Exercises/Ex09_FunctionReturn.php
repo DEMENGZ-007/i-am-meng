@@ -7,11 +7,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 9 - Function with return value
-        Create functions area($w, $h) and perimeter($w, $h) that return the result. Print both.
-        */
+       
         function area($w, $h) {
             return $w * $h;
         }

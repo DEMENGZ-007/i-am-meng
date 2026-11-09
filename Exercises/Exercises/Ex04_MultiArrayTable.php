@@ -8,11 +8,7 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 4 - Multidimensional Array Table
-        Create 5 products (id, name, price, qty). Show them in a table with a Total column (price x qty) and a grand total.
-        */
+        
         $products = [
             ["id" => 1, "name" => "Notebook", "price" => 1.50, "qty" => 10],
             ["id" => 2, "name" => "Pen",      "price" => 0.50, "qty" => 30],
